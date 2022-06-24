@@ -1,0 +1,80 @@
+html,
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #4e71b8;
+}
+
+.joinInnerContainer {
+  width: 20%;
+}
+
+.nameJoinInput {
+  border: none;
+  border-radius: 0;
+  padding: 20px 20px;
+  width: 100%;
+}
+
+.roomJoinInput {
+  border: none;
+  border-radius: 0;
+  padding: 20px 20px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.joinHeading {
+  margin-top: 30px;
+  color: white;
+  font-size: 30px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid black;
+}
+
+.button {
+  margin-top: 20px;
+  color: #fff !important;
+  text-decoration: none;
+  background: #26205c88;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.16",
+    "reinstall": "^2.0.0",
+    "socket.io": "^4.5.1",
+    "uninstall": "^0.0.0"
+  }
+}
