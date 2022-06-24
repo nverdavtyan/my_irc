@@ -71,9 +71,6 @@ const Chat = () => {
         />
       </div>
       <TextContainer users={users} />
-<div>
-  list
-</div>
       <ul className="">
                 {rooms.map((room) => {
                   return (
