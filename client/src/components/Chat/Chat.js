@@ -17,7 +17,7 @@ const Chat = () => {
   const [users, setUsers] = useState("");
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = "localhost:5000";
+  const ENDPOINT = "https://peaceful-river-71218.herokuapp.com/";
   const { search } = useLocation();
   const [rooms, setRooms] = useState([]);
   console.log(rooms)

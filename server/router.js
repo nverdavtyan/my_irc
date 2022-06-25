@@ -1,8 +1,9 @@
 const express = require("express");
 const router = express.Router();
+const serverless = require('serverless-http');
 
 router.get("/", (req, res) => {
-  res.send("Server is running");
+  res.json("Server is running");
 });
 
-module.exports = router;
+module.exports.handler = serverless(app);
